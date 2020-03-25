@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c26e0922-f5d1-4f49-9f70-018a1bcd0ac5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZcQz5XYwa8fyfcnEne848VLynV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.edu.agh.dronka.shop.main.Main" />
+      <module name="dronka-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.agh.dronka.shop.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c26e0922-f5d1-4f49-9f70-018a1bcd0ac5" name="Default Changelist" comment="" />
+      <created>1585136161403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585136161403</updated>
+      <workItem from="1585136164871" duration="12168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="257" width="544" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1585140586386">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="718" y="257" width="544" height="599" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585140586386" />
+    <state width="1804" height="253" key="GridCell.Tab.0.bottom" timestamp="1585149094365">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="253" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585149094365" />
+    <state width="1804" height="253" key="GridCell.Tab.0.center" timestamp="1585149094365">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="253" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585149094365" />
+    <state width="1804" height="253" key="GridCell.Tab.0.left" timestamp="1585149094365">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="253" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585149094365" />
+    <state width="1804" height="253" key="GridCell.Tab.0.right" timestamp="1585149094365">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="253" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585149094365" />
+    <state width="1804" height="192" key="GridCell.Tab.1.bottom" timestamp="1585148563924">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="192" key="GridCell.Tab.1.bottom/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585148563924" />
+    <state width="1804" height="192" key="GridCell.Tab.1.center" timestamp="1585148563923">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="192" key="GridCell.Tab.1.center/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585148563923" />
+    <state width="1804" height="192" key="GridCell.Tab.1.left" timestamp="1585148563923">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="192" key="GridCell.Tab.1.left/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585148563923" />
+    <state width="1804" height="192" key="GridCell.Tab.1.right" timestamp="1585148563923">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="192" key="GridCell.Tab.1.right/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585148563923" />
+    <state x="2523" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1585136177483">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2523" y="363" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585136177483" />
+    <state x="659" y="216" width="662" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585148192541">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="659" y="216" width="662" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053/1920.0.1920.1080@70.27.1850.1053" timestamp="1585148192541" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/agh/dronka/shop/view/PropertiesPanel.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

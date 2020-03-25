@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Generator Losowości",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "generowanie losowej wartości"
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Kostka do gry",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zwracanie losowej wartości odpowiadającej ściance na kostce do gry"
+    ],
+    "collaborators": [
+      "GeneratorLosowości"
+    ]
+  },
+  {
+    "name": "Broń",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządzanie właściwościami określonej broni, m.in. jej moc, siłą"
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Opancerzenie",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządzanie właściwościami obronnymi oraz rodzajem opancerzenia, m.in. zbroja lub tarcza, wartość statystyki obrony"
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Czary",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządzanie informacjami dotyczącymi czarów, m.in. nazwy, siła, koszty many"
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Postać",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządzanie danymi, które dotyczą postaci, m.in. doświadczeniem, posiadanym ekwipunkiem, statystykami takimi jak poziom many lub też siłą"
+    ],
+    "collaborators": [
+      "Broń",
+      "Opancerzenie",
+      "Czary"
+    ]
+  },
+  {
+    "name": "Walka",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządza informacjami dotyczącymi walki pomiędzy dwoma postaciami, m.in. rozgrywką turową, rozdzielaniem doświadczenia pomiędzy postaciami "
+    ],
+    "collaborators": [
+      "Postać",
+      "Tura Walki"
+    ]
+  },
+  {
+    "name": "Tura Walki",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarządza informacjami dotyczącymi tury, m.in. otrzymywanym obrażeniom przez graczy, rzucaniem kostką w celu walki na czary"
+    ],
+    "collaborators": [
+      "Generator Losowości",
+      "Kostka do gry",
+      "Postać"
+    ]
+  }
+]
