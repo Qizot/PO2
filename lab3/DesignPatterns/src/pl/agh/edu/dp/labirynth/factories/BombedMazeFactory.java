@@ -23,7 +23,7 @@ public class BombedMazeFactory extends MazeFactory {
         if (!(r1.getSide(dir) instanceof Wall) || !(r2.getSide(dir.getOpposite()) instanceof Wall)) {
             throw new IllegalArgumentException("either of rooms was lacking required wall");
         }
-        Door door = new BombedDoor(r1, r2, (Wall)r1.getSide(dir), (Wall)r2.getSide(dir.getOpposite()));
+        Door door = new BombedDoor(r1, r2);
         r1.setSide(dir, door);
         r2.setSide(dir.getOpposite(), door);
         return door;

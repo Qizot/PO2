@@ -3,14 +3,10 @@ package pl.agh.edu.dp.labirynth.elements;
 public class Door extends MapSite {
     private Room room1;
     private Room room2;
-    private Wall firstRoomWall;
-    private Wall secondRoomWall;
 
-    public Door(Room r1, Room r2, Wall r1Wall, Wall r2Wall){
+    public Door(Room r1, Room r2){
         this.room1 = r1;
         this.room2 = r2;
-        this.firstRoomWall = r1Wall;
-        this.secondRoomWall = r2Wall;
     }
 
 
@@ -34,13 +30,4 @@ public class Door extends MapSite {
     public void setRoom2(Room room2) {
         this.room1 = room2;
     }
-
-    public Wall getFirstWall() {
-        return firstRoomWall;
-    }
-
-    public Wall getSecondWall() {
-        return firstRoomWall;
-    }
-
 }
