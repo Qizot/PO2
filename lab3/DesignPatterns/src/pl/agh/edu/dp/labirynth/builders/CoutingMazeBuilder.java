@@ -30,6 +30,12 @@ public class CoutingMazeBuilder implements MazeBuilder {
     }
 
     @Override
+    public MazeBuilder connectRoomsWithDoor(Room firstRoom, Room secondRoom, Direction direction) {
+        increment();
+        return null;
+    }
+
+    @Override
     public Maze build() {
         return null;
     }

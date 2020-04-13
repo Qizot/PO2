@@ -8,5 +8,6 @@ public interface MazeBuilder {
     MazeBuilder addRoom(Room room);
     MazeBuilder addWall(Room room, Direction direction);
     MazeBuilder connectRoomsWithDoor(Room firstRoom, Room secondRoom);
+    MazeBuilder connectRoomsWithDoor(Room firstRoom, Room secondRoom, Direction direction);
     Maze build();
 }
