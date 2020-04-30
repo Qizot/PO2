@@ -1,7 +1,7 @@
-package pl.edu.agh.to.lab4.SearchStrategy;
+package pl.edu.agh.to.lab4.searchstrategy;
 
-import pl.edu.agh.to.lab4.CracovCitizen;
-import pl.edu.agh.to.lab4.Suspect;
+import pl.edu.agh.to.lab4.suspect.CracovCitizen;
+import pl.edu.agh.to.lab4.suspect.Suspect;
 
 public class AgeSearchStrategy implements SearchStrategy {
 

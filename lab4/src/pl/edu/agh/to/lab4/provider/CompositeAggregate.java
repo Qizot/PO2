@@ -1,14 +1,18 @@
-package pl.edu.agh.to.lab4;
+package pl.edu.agh.to.lab4.provider;
+
+import pl.edu.agh.to.lab4.FlatIterator;
+import pl.edu.agh.to.lab4.suspect.Suspect;
+import pl.edu.agh.to.lab4.provider.SuspectAggregate;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CompositeAggregate implements SuspectAggregate{
+public class CompositeAggregate implements SuspectAggregate {
 
     private final List<SuspectAggregate> aggregates;
 
-    CompositeAggregate(List<SuspectAggregate> aggregates) {
+    public CompositeAggregate(List<SuspectAggregate> aggregates) {
         this.aggregates = aggregates;
     }
 
@@ -17,8 +21,7 @@ public class CompositeAggregate implements SuspectAggregate{
         return new FlatIterator<Suspect>(
             aggregates
             .stream()
-            .map(s -> (Iterator<Suspect>) s.iterator()
-            )
+            .map(s -> (Iterator<Suspect>) s.iterator())
             .collect(Collectors.toList())
         );
     }

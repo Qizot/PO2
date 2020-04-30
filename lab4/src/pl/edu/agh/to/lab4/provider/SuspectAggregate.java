@@ -1,4 +1,6 @@
-package pl.edu.agh.to.lab4;
+package pl.edu.agh.to.lab4.provider;
+
+import pl.edu.agh.to.lab4.suspect.Suspect;
 
 import java.util.Iterator;
 

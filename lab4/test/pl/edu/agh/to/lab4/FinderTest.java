@@ -10,6 +10,8 @@ import java.util.Map;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import pl.edu.agh.to.lab4.suspect.CracovCitizen;
+import pl.edu.agh.to.lab4.suspect.Prisoner;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

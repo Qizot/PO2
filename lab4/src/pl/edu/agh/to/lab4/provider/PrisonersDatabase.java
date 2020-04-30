@@ -1,4 +1,8 @@
-package pl.edu.agh.to.lab4;
+package pl.edu.agh.to.lab4.provider;
+
+import pl.edu.agh.to.lab4.FlatIterator;
+import pl.edu.agh.to.lab4.suspect.Prisoner;
+import pl.edu.agh.to.lab4.suspect.Suspect;
 
 import java.util.*;
 import java.util.stream.Collectors;
